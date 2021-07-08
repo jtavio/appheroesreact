@@ -4,7 +4,8 @@ import { getHeroById } from '../../selectors/getHeroById';
 
 // import batman from '../../assets/heroes/dc-batman.jpg'; //recurso estaticos
 
-const heroesImg = require.context('../../assets/heroes', true);
+// const heroesImg = require.context('../../assets/heroes', true);
+import {heroesImg} from '../../helpers/heroImages'
 
 const HereosScreen = ({history}) => {
 
