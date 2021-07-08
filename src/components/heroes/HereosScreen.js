@@ -33,7 +33,7 @@ const HereosScreen = ({history}) => {
         <div className="card mb-3" style={{maxwidth: 540}}>
         <div className="row g-0 animate__animated animate__fadeInLeft">
             <div className="col-md-4">
-            <img src={`../assets/heroes/${heroeId}.jpg`} className="img-fluid rounded-start animate__animated animate__fadeInLeft" alt={superhero}/>
+            <img src={`./../assets/heroes/${heroeId}.jpg`} className="img-fluid rounded-start animate__animated animate__fadeInLeft" alt={superhero}/>
             </div>
             <div className="col-md-8">
             <div className="card-body">
